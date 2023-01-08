@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:hint="Enter Your Name"
+       android:layout_marginTop="10dp"
+       android:layout_marginEnd="20dp"
+       android:layout_marginStart="20dp"
+       android:id="@+id/etOne"
+       android:padding="10dp"
+       android:background="@drawable/stroke"
+/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:hint="Enter Your Dept"
+       android:layout_marginTop="10dp"
+       android:layout_marginEnd="20dp"
+       android:layout_marginStart="20dp"
+       android:id="@+id/ettwo"
+       android:padding="10dp"
+       android:background="@drawable/stroke"
+       />
+   <EditText
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:hint="Enter Your Email"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginStart="20dp"
+    android:id="@+id/etthree"
+    android:padding="10dp"
+    android:background="@drawable/stroke"
+    />
+
+   <EditText
+       android:id="@+id/etfour"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_marginStart="20dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginEnd="20dp"
+       android:background="@drawable/stroke"
+       android:hint="Enter Your password"
+       android:padding="10dp" />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Tanzeel"
+       android:id="@+id/tvOne"
+    android:gravity="center"
+       android:textColor="@color/black"
+       android:textSize="20sp"
+       android:layout_marginTop="10dp"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Tanzeel"
+       android:id="@+id/tvTwo"
+       android:gravity="center"
+       android:textColor="@color/black"
+       android:textSize="20sp"
+       android:layout_marginTop="10dp"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Tanzeel"
+       android:id="@+id/tvThree"
+       android:gravity="center"
+       android:textColor="@color/black"
+       android:textSize="20sp"
+       android:layout_marginTop="10dp"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Tanzeel"
+       android:id="@+id/tvFour"
+       android:gravity="center"
+       android:textColor="@color/black"
+       android:textSize="20sp"
+       android:layout_marginTop="10dp"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp"
+    android:id="@+id/btnSave"
+    android:text="Save"
+    android:background="@drawable/solid"
+    android:layout_marginEnd="20dp"
+   />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginStart="20dp"
+       android:id="@+id/btnLoad"
+       android:text="Load"
+       android:background="@drawable/solid"
+       android:layout_marginEnd="20dp"
+       />
+
+</LinearLayout>
